@@ -1,0 +1,42 @@
+@startuml
+class SystemLogin{
+    String username
+    String password
+    String consoleUsername
+    String consolePassword
+    boolean access
+
+    compareIdentification()
+}
+
+class PasswordOrganizer{
+    list <Account> accounts
+
+    addAccount()
+    deleteAccount()
+    editAccount()
+    listAccounts()
+    getAccount()
+    load()
+    save()
+}
+
+class Account{
+    String name
+    String username
+    String password
+
+    getName()
+    setName()
+    getUsername()
+    setUsername()
+    getPassword()
+    setPassword()
+}
+
+class Encrypt{
+    translatePassword()
+    retrieveOriginalPassword()
+}
+
+@enduml
