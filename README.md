@@ -5,3 +5,5 @@ Program that stores and protects multiple account information
 * Protects passowrds through AES encryption 
 * JavaFX to build user interface 
 
+![](obscure_login.jpg)
+![](obscure_main.jpg)
